@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resta</title>
+    <link rel="stylesheet" href="styles/stylesResta.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h2>Restas</h2>
+        <p>Calculadora básica</p>
+        <a href="index.html"><button type="button" id="botonHome" href="index.html">HOME</button></a>
+
+      </div>
+    <form id="formulario">
+        <h4>Resta de numeros enteros, complemento a 2</h4>
+        <label for="enteroA">Entero A:</label>
+        <input type="text" id="enteroA" name="enteroA" required>
+
+        <label for="enteroB">Entero B:</label>
+        <input type="text" id="enteroB" name="enteroB" required>
+
+        <label for="numBits">Número de Bits:</label>
+        <input type="number" id="numBits" name="numBits" required>
+        <br>
+        <br>
+        <button type="button" onclick="{ calcularRestaEnteros(); limpiar();}">Calcular Resta</button>
+    </form>
+    <div id="resultado"></div>\
+
+    <br>
+    <form id="formulario">
+        <h4>Resta de binarios en complemento a 2</h4>
+        <label for="enteroA">Binario A:</label>
+        <input type="text" id="binarioA" name="binarioA" required>
+
+        <label for="enteroB">Binario B:</label>
+        <input type="text" id="binarioB" name="binarioB" required>
+
+        <label for="numBits">Número de Bits:</label>
+        <input type="number" id="numBitsDos" name="numBitsDos" required>
+        <br>
+        <br>
+        <button type="button" onclick="{ calcularSumaBinarios(); limpiarDos();}">Calcular Resta</button>
+
+    </form>
+    <div id="resultado2"></div>
+
+    <script src="calc_functions/resta.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 16%;
+}
+
+label {
+    margin: 10px 0 5px 0;
+    display: block;
+}
+
+input,button {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#botonHome{
+    background-color: #FDB3B3;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 30%;
+    box-sizing: border-box;
+
+}
+button {
+    background-color: #FDB3B3;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FDB3B3;
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+#resultado2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
